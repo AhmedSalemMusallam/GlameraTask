@@ -1,0 +1,6 @@
+framework module Pods_TaskGlamera_TaskGlameraUITests {
+  umbrella header "Pods-TaskGlamera-TaskGlameraUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

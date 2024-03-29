@@ -1,0 +1,75 @@
+PODS:
+  - Alamofire (5.8.1)
+  - BSImagePicker (3.3.1)
+  - Drops (1.4.0)
+  - lottie-ios (4.3.4)
+  - MOLH (1.4.3)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - PromiseKit (8.1.1):
+    - PromiseKit/CorePromise (= 8.1.1)
+    - PromiseKit/Foundation (= 8.1.1)
+    - PromiseKit/UIKit (= 8.1.1)
+  - PromiseKit/CorePromise (8.1.1)
+  - PromiseKit/Foundation (8.1.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (8.1.1):
+    - PromiseKit/CorePromise
+  - ReachabilitySwift (5.0.0)
+  - SDWebImage (5.18.5):
+    - SDWebImage/Core (= 5.18.5)
+  - SDWebImage/Core (5.18.5)
+  - SwiftMessages (9.0.9):
+    - SwiftMessages/App (= 9.0.9)
+  - SwiftMessages/App (9.0.9)
+
+DEPENDENCIES:
+  - BSImagePicker
+  - Drops (from `https://github.com/omaralbeik/Drops.git`, tag `1.4.0`)
+  - lottie-ios
+  - MOLH
+  - Moya
+  - PromiseKit
+  - ReachabilitySwift (~> 5.0)
+  - SDWebImage
+  - SwiftMessages
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BSImagePicker
+    - lottie-ios
+    - MOLH
+    - Moya
+    - PromiseKit
+    - ReachabilitySwift
+    - SDWebImage
+    - SwiftMessages
+
+EXTERNAL SOURCES:
+  Drops:
+    :git: https://github.com/omaralbeik/Drops.git
+    :tag: 1.4.0
+
+CHECKOUT OPTIONS:
+  Drops:
+    :git: https://github.com/omaralbeik/Drops.git
+    :tag: 1.4.0
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  BSImagePicker: 0fe04b574d4d6b81093785d2af6c26227efc8428
+  Drops: e0922898e3985a0b9329f388bd9811f9cd9f7dd0
+  lottie-ios: 3d98679b41fa6fd6aff2352b3953dbd3df8a397e
+  MOLH: e45827d200aeb1310641090fd8cd03ad2b42ae72
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  PromiseKit: d1be44b474e5acfa16adf007a1f49f104e10fead
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SDWebImage: 7ac2b7ddc5e8484c79aa90fc4e30b149d6a2c88f
+  SwiftMessages: 1a23aef303fa7bb26ad802880746cf8358e378fe
+
+PODFILE CHECKSUM: 1083add21495b088e945c8eea249719f9ec19ab6
+
+COCOAPODS: 1.12.1

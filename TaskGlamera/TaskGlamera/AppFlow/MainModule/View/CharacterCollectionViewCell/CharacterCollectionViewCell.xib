@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="CharacterCollectionViewCell" reuseIdentifier="CharacterCollectionViewCell" id="gTV-IL-0wX" customClass="CharacterCollectionViewCell" customModule="TaskGlamera" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="309" height="177"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="309" height="177"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ya7-i9-gcJ">
+                        <rect key="frame" x="0.0" y="0.0" width="309" height="177"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CharaterDemo1" translatesAutoresizingMaskIntoConstraints="NO" id="ze8-L8-OM6">
+                                <rect key="frame" x="0.0" y="0.0" width="309" height="177"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n1d-u3-UF9">
+                                <rect key="frame" x="18" y="118" width="150" height="48"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_cell_title" translatesAutoresizingMaskIntoConstraints="NO" id="54V-S3-h1K">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="48"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 D Man" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zb3-ga-xMM">
+                                        <rect key="frame" x="2" y="13.666666666666657" width="146" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Zb3-ga-xMM" secondAttribute="trailing" constant="2" id="AwD-Mm-SWN"/>
+                                    <constraint firstItem="Zb3-ga-xMM" firstAttribute="centerX" secondItem="n1d-u3-UF9" secondAttribute="centerX" id="Duq-Eo-ps1"/>
+                                    <constraint firstAttribute="trailing" secondItem="54V-S3-h1K" secondAttribute="trailing" id="HeQ-hl-nFT"/>
+                                    <constraint firstItem="54V-S3-h1K" firstAttribute="leading" secondItem="n1d-u3-UF9" secondAttribute="leading" id="OmA-8I-3Km"/>
+                                    <constraint firstItem="Zb3-ga-xMM" firstAttribute="centerY" secondItem="n1d-u3-UF9" secondAttribute="centerY" id="UBg-T2-BEo"/>
+                                    <constraint firstAttribute="width" constant="150" id="VGf-Rh-Hor"/>
+                                    <constraint firstAttribute="height" constant="48" id="b5w-QW-Hau"/>
+                                    <constraint firstAttribute="bottom" secondItem="54V-S3-h1K" secondAttribute="bottom" id="dxG-DZ-6Vw"/>
+                                    <constraint firstItem="Zb3-ga-xMM" firstAttribute="leading" secondItem="n1d-u3-UF9" secondAttribute="leading" constant="2" id="i5L-IK-GqL"/>
+                                    <constraint firstItem="54V-S3-h1K" firstAttribute="top" secondItem="n1d-u3-UF9" secondAttribute="top" id="oDl-mR-2mz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ze8-L8-OM6" secondAttribute="bottom" id="5St-8I-WcF"/>
+                            <constraint firstAttribute="trailing" secondItem="ze8-L8-OM6" secondAttribute="trailing" id="FrR-ak-8JO"/>
+                            <constraint firstItem="ze8-L8-OM6" firstAttribute="leading" secondItem="Ya7-i9-gcJ" secondAttribute="leading" id="lUr-J0-TaY"/>
+                            <constraint firstAttribute="bottom" secondItem="n1d-u3-UF9" secondAttribute="bottom" constant="11" id="r6A-q4-WOL"/>
+                            <constraint firstItem="ze8-L8-OM6" firstAttribute="top" secondItem="Ya7-i9-gcJ" secondAttribute="top" id="uAk-uT-rUh"/>
+                            <constraint firstItem="n1d-u3-UF9" firstAttribute="leading" secondItem="Ya7-i9-gcJ" secondAttribute="leading" constant="18" id="xgo-G7-IQZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Ya7-i9-gcJ" secondAttribute="bottom" id="CP5-zJ-J47"/>
+                <constraint firstItem="Ya7-i9-gcJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Pvr-ky-DMd"/>
+                <constraint firstItem="Ya7-i9-gcJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dJK-oG-vlE"/>
+                <constraint firstAttribute="trailing" secondItem="Ya7-i9-gcJ" secondAttribute="trailing" id="ktJ-RR-7Ca"/>
+            </constraints>
+            <size key="customSize" width="309" height="177"/>
+            <connections>
+                <outlet property="CharacterBGView" destination="Ya7-i9-gcJ" id="bPW-2D-dBi"/>
+                <outlet property="CharacterImageView" destination="ze8-L8-OM6" id="LOy-Zz-nJM"/>
+                <outlet property="TitleLable" destination="Zb3-ga-xMM" id="1fh-nZ-ap0"/>
+            </connections>
+            <point key="canvasLocation" x="237.40458015267174" y="63.732394366197184"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="CharaterDemo1" width="850" height="850"/>
+        <image name="bg_cell_title" width="160" height="36"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

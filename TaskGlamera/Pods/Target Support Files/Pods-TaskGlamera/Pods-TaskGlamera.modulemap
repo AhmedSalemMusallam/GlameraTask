@@ -1,0 +1,6 @@
+framework module Pods_TaskGlamera {
+  umbrella header "Pods-TaskGlamera-umbrella.h"
+
+  export *
+  module * { export * }
+}
